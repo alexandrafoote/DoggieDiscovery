@@ -19,3 +19,12 @@ You can locally run the code by navigating to the BaseFiles directory and enteri
 ```sh
 $ ionic serve
 ```
+
+## Camera Installation
+
+To take a photograph or video, the Cordova and Ionic Native plugins must be installed. Navigate to the ionic project directory and install the packages as follows:
+
+```sh
+$ ionic cordova plugin add cordova-plugin-camera
+$ npm install --save @ionic-native/camera
+```
