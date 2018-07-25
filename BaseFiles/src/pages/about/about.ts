@@ -7,7 +7,11 @@ import { NavController, LoadingController } from 'ionic-angular';
 })
 export class AboutPage {
 
-  constructor(public navCtrl: NavController, public loadingCtrl: LoadingController) { }
+  constructor(public navCtrl: NavController,  public loadingCtrl: LoadingController)
+  {
+
+  }
+
 
     presentLoading() {
       this.loadingCtrl.create({
