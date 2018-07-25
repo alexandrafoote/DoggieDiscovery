@@ -17,5 +17,5 @@ $ npm install -g ionic
 You can locally run the code by navigating to the BaseFiles directory and entering the following into your command line:
 
 ```sh
-$ ionic sevre
+$ ionic serve
 ```
