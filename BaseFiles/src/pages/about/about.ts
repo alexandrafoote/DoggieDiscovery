@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { NavController, LoadingController } from 'ionic-angular';
+import { NavController, LoadingController, NavParams } from 'ionic-angular';
 
 @Component({
   selector: 'page-about',
@@ -7,9 +7,9 @@ import { NavController, LoadingController } from 'ionic-angular';
 })
 export class AboutPage {
 
-  constructor(public navCtrl: NavController,  public loadingCtrl: LoadingController)
+  constructor(public navCtrl: NavController,  public navParams: NavParams, public loadingCtrl: LoadingController)
   {
-
+    console.log(navParams.get('val'));
   }
 
 
