@@ -1,11 +1,36 @@
 <ion-header>
   <ion-navbar>
     <ion-title>
-      About
+      Doggie Discovery
     </ion-title>
   </ion-navbar>
 </ion-header>
 
 <ion-content padding>
+
+  <ion-card>
+    <div text-center>
+    <ion-icon name="camera" class="larger" color="primary" item-start></ion-icon>
+    </div>
+    <ion-card-content>
+      <ion-buttons start>
+        <button ion-button block (click)="presentLoading()">Take a Photo</button>
+      </ion-buttons>
+    </ion-card-content>
+  </ion-card>
+
+  <ion-card>
+    <div text-center>
+      <ion-icon name="photos" class="larger" color="primary" item-start></ion-icon>
+    </div>
+    <ion-card-content>
+      <ion-buttons start>
+        <button ion-button block (click)="presentLoading()">Upload a Photo</button>
+      </ion-buttons>
+    </ion-card-content>
+  </ion-card>
+
+
+
 
 </ion-content>

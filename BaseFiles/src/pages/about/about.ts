@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { NavController } from 'ionic-angular';
+import { NavController, LoadingController } from 'ionic-angular';
 
 @Component({
   selector: 'page-about',
@@ -7,8 +7,16 @@ import { NavController } from 'ionic-angular';
 })
 export class AboutPage {
 
-  constructor(public navCtrl: NavController) {
+  constructor(public navCtrl: NavController, public loadingCtrl: LoadingController) { }
 
-  }
+    presentLoading() {
+      this.loadingCtrl.create({
+        content: 'Please wait...',
+        duration: 3000,
+        dismissOnPageChange: true
+      }).present();
+    }
+
+
 
 }
