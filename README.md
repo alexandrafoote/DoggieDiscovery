@@ -1,4 +1,4 @@
-# DoggieDiscovery
+# Doggie Discovery
 An application that uses machine learning to identify dog breeds from images
 
 This repo contains:
