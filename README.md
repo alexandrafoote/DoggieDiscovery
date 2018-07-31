@@ -4,6 +4,7 @@ An application that uses machine learning to identify dog breeds from images
 This repo contains:
 1. Doggie Discovery Application
 2. UX Design [Prototype](https://xd.adobe.com/view/9a716b27-7de7-43f3-55ea-3bb2a5dcbe72-ec40/) files
+3. Image Classification Model
 
 ## Install
 
