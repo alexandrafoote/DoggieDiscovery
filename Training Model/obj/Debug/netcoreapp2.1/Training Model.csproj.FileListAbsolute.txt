@@ -1,0 +1,11 @@
+/Users/alexandrafoote/Documents/Projects/DoggieDiscovery/Training Model/obj/Debug/netcoreapp2.1/Training Model.csprojAssemblyReference.cache
+/Users/alexandrafoote/Documents/Projects/DoggieDiscovery/Training Model/obj/Debug/netcoreapp2.1/Training Model.csproj.CoreCompileInputs.cache
+/Users/alexandrafoote/Documents/Projects/DoggieDiscovery/Training Model/obj/Debug/netcoreapp2.1/Training Model.AssemblyInfoInputs.cache
+/Users/alexandrafoote/Documents/Projects/DoggieDiscovery/Training Model/obj/Debug/netcoreapp2.1/Training Model.AssemblyInfo.cs
+/Users/alexandrafoote/Documents/Projects/DoggieDiscovery/Training Model/bin/Debug/netcoreapp2.1/Training Model.deps.json
+/Users/alexandrafoote/Documents/Projects/DoggieDiscovery/Training Model/bin/Debug/netcoreapp2.1/Training Model.runtimeconfig.json
+/Users/alexandrafoote/Documents/Projects/DoggieDiscovery/Training Model/bin/Debug/netcoreapp2.1/Training Model.runtimeconfig.dev.json
+/Users/alexandrafoote/Documents/Projects/DoggieDiscovery/Training Model/bin/Debug/netcoreapp2.1/Training Model.dll
+/Users/alexandrafoote/Documents/Projects/DoggieDiscovery/Training Model/bin/Debug/netcoreapp2.1/Training Model.pdb
+/Users/alexandrafoote/Documents/Projects/DoggieDiscovery/Training Model/obj/Debug/netcoreapp2.1/Training Model.dll
+/Users/alexandrafoote/Documents/Projects/DoggieDiscovery/Training Model/obj/Debug/netcoreapp2.1/Training Model.pdb
