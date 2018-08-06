@@ -12,6 +12,7 @@ import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
 
 import { Camera } from '@ionic-native/camera';
+import { CameraMock } from './camera.mock';
 
 @NgModule({
   declarations: [
@@ -36,7 +37,7 @@ import { Camera } from '@ionic-native/camera';
   providers: [
     StatusBar,
     SplashScreen,
-    Camera,
+    {provide: Camera, useClass: CameraMock},
     {provide: ErrorHandler, useClass: IonicErrorHandler}
   ]
 })

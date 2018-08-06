@@ -16,7 +16,7 @@
     </div>
     <ion-card-content>
       <ion-buttons start>
-        <button ion-button block (click)="takePhoto()">Take a Photo</button>
+        <button ion-button block (click)="takePicture()">Take a Photo</button>
       </ion-buttons>
     </ion-card-content>
   </ion-card>
@@ -32,10 +32,7 @@
     </ion-card-content>
   </ion-card>
 
-  <p style="align-content: center">
-    <img src="{{myPhoto}}">
-  </p>
-
+    <img [src]="image" alt="">
 
 
 </ion-content>

@@ -8,31 +8,29 @@ import { Camera, CameraOptions } from '@ionic-native/camera';
 })
 export class AboutPage {
 
-  myPhoto:any;
+    image: string;
+
+    options: CameraOptions = {
+      quality: 100,
+      destinationType: this.camera.DestinationType.FILE_URI,
+      encodingType: this.camera.EncodingType.JPEG,
+      mediaType: this.camera.MediaType.PICTURE
+    }
 
   constructor(public navCtrl: NavController,  private camera: Camera, public navParams: NavParams, public loadingCtrl: LoadingController)
   {
     console.log(navParams.get('val'));
   }
 
-    takePhoto() {
-      
-      const options: CameraOptions = {
-        quality: 100,
-        destinationType: this.camera.DestinationType.FILE_URI,
-        encodingType: this.camera.EncodingType.JPEG,
-        mediaType: this.camera.MediaType.PICTURE
+    async takePicture() : Promise<any> {
+      try {
+             this.image = await this.camera.getPicture(this.options);
       }
-      
-      this.camera.getPicture(options).then((imageData) => {
-       // imageData is either a base64 encoded string or a file URI
-       // If it's base64 (DATA_URL):
-       this.myPhoto = 'data:image/jpeg;base64,' + imageData;
-      }, (err) => {
-       // Handle error
-      });
-
+      catch(e) {
+        console.log(e);
+      }
     }
+
     presentLoading() {
       this.loadingCtrl.create({
         content: 'Please wait...',
